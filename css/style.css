@@ -22,9 +22,22 @@ ul {
 }
 
 #recipeCard {
+
+  padding: 1em;
+  height: 12em;
+  font-family: 'Walter Turncoat';
+  line-height: 1.75;
+  font-size: 1.2em;
+  background-image: url(../img/paper.jpg);
   font-family: 'Abel';
   background-image: url("../img/paper.jpg");
+
   text-align: center;
+}
+
+#recipeCard ul {
+  padding: 1em 2em;
+  color: rgba(0, 0, 0, 0.623);
 }
 
 #logoBlock h2 {
