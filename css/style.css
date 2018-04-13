@@ -1,12 +1,30 @@
 body {
-  width: 80%;
+  width: 70%;
   margin: auto;
+  font-size: 15px;
+}
+
+header {
+  font-family: "Abel";
+  font-size: .8em;
+  font-weight: bold;
+  margin-top: 2em;
 }
 
 #logoBlock {
   display: inline-block;
   vertical-align: top;
+}
 
+#logoBlock h2 {
+  font-family: "Yellowtail";
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#logoBlock p {
+  color: rgb(190, 190, 190);
+  text-transform: uppercase;
 }
 
 nav img {
@@ -16,4 +34,45 @@ nav img {
   float: right;
   line-height: 45px;
   padding-top: 10px;
+}
+
+.blockLine {
+  height: 1em;
+  background-image: linear-gradient(45deg, rgb(190, 190, 190) 25%, transparent 25%, transparent 50%, rgb(190, 190, 190) 50%, rgb(190, 190, 190) 75%, transparent 75%, #fff);
+  background-size: 4px 4px;
+  border: none;
+  margin-top: 2em;
+}
+
+#titleLine {
+  margin-top: 4em;
+  font-family: "Oswald";
+  font-weight: bold;
+}
+
+#titleLine p{
+  font-size: .9em;
+  color: rgb(190, 190, 190);
+  text-transform: uppercase;
+  display: inline-block;
+  margin: .8em 0 .8em 0;
+  font-weight: normal;
+}
+
+#titleLine h1 {
+  font-size: 3em;
+  font-weight: 700;
+  display: inline-block;
+}
+
+#printIcon {
+  float:right;
+  display: block;
+  font-weight: normal;
+}
+
+
+#heroImage {
+  width: 100%;
+  margin-top: 1em;
 }
