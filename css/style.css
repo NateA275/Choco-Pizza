@@ -1,12 +1,22 @@
 body {
-  width: 80%;
+  width: 70%;
   margin: auto;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
 }
 
 #logoBlock {
   display: inline-block;
   vertical-align: top;
+}
 
+#recipeCard {
+  font-family: 'Abel';
+  background-image: url("/img/paper.jpg");
+  text-align: center;
 }
 
 nav img {
