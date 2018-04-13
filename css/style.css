@@ -21,6 +21,7 @@ nav img {
 
 #titleLine h1 {
   font-size: 1.5em;
+  display: inline-block;
 }
 
 #printIcon {
