@@ -1,0 +1,19 @@
+body {
+  width: 80%;
+  margin: auto;
+}
+
+#logoBlock {
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+nav img {
+  display: inline-block;
+}
+#icons {
+  float: right;
+  line-height: 45px;
+  padding-top: 10px;
+}
