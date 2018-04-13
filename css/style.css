@@ -23,7 +23,7 @@ ul {
 
 #recipeCard {
   font-family: 'Abel';
-  background-image: url("/img/paper.jpg");
+  background-image: url("../img/paper.jpg");
   text-align: center;
 }
 
@@ -82,8 +82,42 @@ nav img {
   font-weight: normal;
 }
 
-
 #heroImage {
   width: 100%;
   margin-top: 1em;
+}
+
+
+
+#bio{
+  display: inline-block;
+  line-height: 2em;
+  font-family: "Libre Baskerville";
+}
+
+#author {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#bio h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+#bio p {
+  width: 33em;
+  line-height: 1.2em;
+  color: rgb(190, 190, 190);
+}
+
+#shareRecipe {
+  text-transform: uppercase;
+  color: white;
+  width: 10em;
+  height: 3em;
+  font-family: sans-serif;
+  float: right;
+  background-color: rgb(190, 119, 86);
+  border: none;
 }
