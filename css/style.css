@@ -100,7 +100,13 @@ nav img {
   margin-top: 1em;
 }
 
-
+#mainText p{
+  text-indent: 2em;
+  font-family: "Libre Baskerville";
+  color: rgb(100, 100, 100);
+  padding: 1em;
+  line-height: 2em;
+}
 
 #bio{
   display: inline-block;
