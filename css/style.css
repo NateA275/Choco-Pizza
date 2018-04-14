@@ -138,3 +138,11 @@ nav img {
   background-color: rgb(190, 119, 86);
   border: none;
 }
+
+footer {
+  font-family: "Libre Baskerville";
+  font-size: .8em;
+  color: rgb(190, 190, 190);
+  text-align: center;
+  margin: 3em 0 2em 0;
+}
